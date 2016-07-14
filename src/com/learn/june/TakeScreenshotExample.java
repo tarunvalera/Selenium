@@ -24,7 +24,7 @@ import org.testng.annotations.Test;
     	  try{
                 //the below statement will throw an exception as the element is not found, Catch block will get executed and takes the screenshot.
     		  driver.findElement(By.id("testing")).sendKeys("test");
-                 
+               System.out.println("here111111"); 
                    //if we remove the below comment, it will not return exception and screen shot method will not get executed.
     		  //driver.findElement(By.id("gbqfq")).sendKeys("test");
     	  }
