@@ -16,12 +16,11 @@ import org.testng.annotations.Test;
       @Test
       public void openBrowser() throws Exception {
     	  
-    	  System.setProperty("webdriver.chrome.driver", "D:\\chromedriver.exe");
+    	System.setProperty("webdriver.chrome.driver", "D:\\chromedriver.exe");
   		driver = new ChromeDriver();
   		driver.manage().window().maximize();
-    	  driver.manage().window().maximize();
-    	  driver.get("http://www.google.com");
-    	  try{
+    	driver.get("http://www.google.com");
+    	try{
                 //the below statement will throw an exception as the element is not found, Catch block will get executed and takes the screenshot.
     		  driver.findElement(By.id("testing")).sendKeys("test");
                  
