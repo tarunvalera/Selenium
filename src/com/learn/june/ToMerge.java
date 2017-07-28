@@ -4,6 +4,6 @@ public class ToMerge {
 	
 	//hello merge
 	//one
-	//hello for myBranch
+	//hello
 
 }
