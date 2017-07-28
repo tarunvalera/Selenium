@@ -4,5 +4,6 @@ public class ToMerge {
 	
 	//hello merge
 	//one
+	//hello
 
 }
